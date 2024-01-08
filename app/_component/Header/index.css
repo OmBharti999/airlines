@@ -3,8 +3,11 @@
  } */
 
  .header {
-    @apply bg-white min-h-14 flex items-center text-red-500 justify-between px-4;
+    @apply bg-white w-full min-h-14 flex items-center text-red-500 justify-between px-4;
  }
+ .header-homepage {
+   @apply bg-white min-h-14 flex items-center text-red-500 justify-between px-4 fixed z-10 w-7/12 rounded-2xl top-10;
+}
  .header-link {
     @apply flex items-center px-4 gap-x-10 font-semibold;
  }

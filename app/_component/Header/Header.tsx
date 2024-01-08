@@ -10,7 +10,7 @@ interface Props {
 
 export function Header({ homepage }: Props) {
   return (
-    <div className={`header ${homepage ? "absolute z-10 w-8/12 rounded-2xl top-5" : "w-full"}`}>
+    <div className={` ${homepage ? " header-homepage" : "header"}`}>
       <Image
         src={"/assets/image/airplane-logo.jpg"}
         width={24}
