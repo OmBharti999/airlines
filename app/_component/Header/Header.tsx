@@ -1,7 +1,8 @@
 import React from "react";
-import "./index.css";
 import Link from "next/link";
 import Image from "next/image";
+
+import "./index.css";
 
 interface Props {
   homepage: boolean;
@@ -9,7 +10,7 @@ interface Props {
 
 export function Header({ homepage }: Props) {
   return (
-    <div className={`header ${homepage ? "absolute z-10 w-8/12 rounded-md" : ""}`}>
+    <div className={`header ${homepage ? "absolute z-10 w-8/12 rounded-2xl top-5" : "w-full"}`}>
       <Image
         src={"/assets/image/airplane-logo.jpg"}
         width={24}
